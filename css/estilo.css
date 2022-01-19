@@ -1,28 +1,64 @@
+/* Estrutura do site
+-------------------------------------------------*/
+
 body {
     font: 14px Helvetica, Arial, sans-serif;
 }
 
+header {
+    background: url(../img/fundo.png)repeat-x;
+    height: 250px;
+    padding-top: 20px;
+}
 
-
-/* Formatação do topo principal
+/* Formatação do logo
 -------------------------------------------------*/
 
-
-
-/* Formatação do topo lateral
--------------------------------------------------*/
-
-
-
-/* Formatação do menu cidades
--------------------------------------------------*/
-
-
+.logo {
+    background: url(../img/logo.png) no-repeat;
+    width: 100%;
+    height: 21px;
+    text-indent: -9000px;
+}
 
 /* Formatação do menu principal
 -------------------------------------------------*/
 
+#menu-principal a {
+    text-transform: uppercase;
+    color: #af670a;
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
 
+#menu-principal a:hover {
+    color: #fff;
+}
+
+#menu-principal a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #ea0e4b;
+    width: 0%;
+    left: 50%;
+    bottom: -10px;
+    transition: 0.3s ease-out;
+}
+
+#menu-principal a:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+.container .botao-tg {
+    background: #af670a;
+}
+
+.botao-tg:hover {
+    background: #227115;
+}
 
 /* Formatação do conteúdo principal
 -------------------------------------------------*/
@@ -49,13 +85,13 @@ body {
 
 @media (max-width: 575.98px) {
     .container {
-        min-width: 770px;
+        min-width: 1000px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .container {
-        min-width: 770px;
+        min-width: 1000px;
     }
 }
 
@@ -70,6 +106,5 @@ body {
 @media (min-width: 1200px) {
     .container {
         max-width: 1180px;
-        min-width: 740px;
     }
 }
