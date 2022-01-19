@@ -3,6 +3,7 @@
 
 body {
     font: 14px Helvetica, Arial, sans-serif;
+    background: #f4f2ec;
 }
 
 header {
@@ -63,12 +64,68 @@ header {
 /* Formatação do conteúdo principal
 -------------------------------------------------*/
 
+#conteudo {
+    margin-top: -160px;
+}
 
+#conteudo-principal {
+    background: url(../img/museu.png) no-repeat;
+    width: 100%;
+    height: 320px;
+}
+
+/* Formatação do sub conteúdo direito
+-------------------------------------------------*/
+
+#sub-conteudo-direita {
+    margin-top: 320px;
+    width: 710px;
+}
+
+.caixa {
+    margin: 30px 0;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #227115;
+    margin: 20px 0;
+}
+
+p {
+    text-align: justify;
+}
+
+#sub-conteudo-direita a {
+    color: #af670a;
+}
+
+#sub-conteudo-direita a:hover {
+    color: #227115;
+}
 
 /* Formatação da conteúdo lateral
 -------------------------------------------------*/
 
+#conteudo-lateral {
+    background: url(../img/depoimento.png) no-repeat;
+    width: 100%;
+    height: 320px;
+}
 
+/* Formatação do sub conteúdo esquerdo
+-------------------------------------------------*/
+
+#sub-conteudo-esquerdo {
+    margin-top: 350px;
+    width: 350px;
+}
+
+.formulario {
+    background: #cdc8b1;
+    padding: 20px;
+}
 
 /* Formatação do rodapé
 -------------------------------------------------*/
