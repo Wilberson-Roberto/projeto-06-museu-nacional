@@ -27,8 +27,7 @@ header {
 
 #menu-principal ul li {
     background: url(../img/fundo.png)repeat-x;
-    height: 50px;
-    float: right;
+    height: 40px;
 }
 
 #menu-principal a {
@@ -93,6 +92,7 @@ h4 {
     font-weight: bold;
     padding-bottom: 10px;
     color: #227115;
+    text-transform: uppercase;
 }
 
 .caixa {
@@ -122,12 +122,52 @@ h4 {
 /* Formatação do sub conteúdo esquerdo
 -------------------------------------------------*/
 
+.sub-conteudo-lateral {
+    margin: 20px 0;
+    background: #cdc8b1;
+}
 
+.caixa-lateral {
+    padding: 20px;
+}
+
+.caixa-lateral h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #613d0e
+}
+
+input#verificar {
+    margin-top: 20px;
+    background: #9b9271;
+    color: #fff;
+    border: none;
+}
+
+#galeria {
+    background: #ebe7dd;
+}
+
+#galeria a {
+    background: #ebe7dd url(../img/fundo-foto.png) no-repeat;
+    display: block;
+    float: left;
+    padding: 17px 15px 17px 15px;
+}
 
 /* Formatação do rodapé
 -------------------------------------------------*/
 
+footer {
+    clear: both;
+    background: url(../img/fundo-rodape.png) no-repeat top center;
+    margin-top: 20px;
+}
 
+footer ul {
+    padding-top: 20px;
+}
 
 /* Outras Páginas
 -------------------------------------------------*/
