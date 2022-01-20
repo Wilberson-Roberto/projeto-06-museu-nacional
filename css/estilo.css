@@ -7,9 +7,9 @@ body {
 }
 
 header {
-    background: url(../img/fundo.png)repeat-x;
-    height: 250px;
-    padding-top: 20px;
+    background: url(../img/fundo.png);
+    height: 130px;
+    padding-top: 30px;
 }
 
 /* Formatação do logo
@@ -25,12 +25,19 @@ header {
 /* Formatação do menu principal
 -------------------------------------------------*/
 
+#menu-principal ul li {
+    background: url(../img/fundo.png)repeat-x;
+    height: 50px;
+    float: right;
+}
+
 #menu-principal a {
     text-transform: uppercase;
     color: #af670a;
     position: relative;
     letter-spacing: 0.5px;
-    padding: 0 10px;
+    padding: 15px 10px;
+    line-height: 1.4rem;
 }
 
 #menu-principal a:hover {
@@ -44,7 +51,7 @@ header {
     background: #ea0e4b;
     width: 0%;
     left: 50%;
-    bottom: -10px;
+    bottom: 0;
     transition: 0.3s ease-out;
 }
 
@@ -53,11 +60,10 @@ header {
     width: 100%;
 }
 
-.container .botao-tg {
+.botao-tg {
     background: #af670a;
-    position: absolute;
-    right: 0;
-    margin-right: 30px;
+    margin-top: 20px;
+    display: flex;
 }
 
 .botao-tg:hover {
@@ -68,32 +74,49 @@ header {
 -------------------------------------------------*/
 
 #conteudo {
-    position: relative;
-    height: 320px;
+    margin-top: 20px;
 }
 
 /* Formatação do conteúdo principal
 -------------------------------------------------*/
 
 #topo-principal {
-    background: url(../img/museu.png) no-repeat;
-    position: absolute;
-    width: 100%;
-    height: 320px;
-    top: 0;
-    left: 0;
+    width: 710px;
+}
+
+.sub-conteudo {
+    padding: 20px;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #227115;
+}
+
+.caixa {
+    padding: 10px 0;
+}
+
+.caixa a {
+    color: #af670a;
+}
+
+.caixa a:hover {
+    color: #227115;
+}
+
+.caixa p {
+    text-align: justify;
 }
 
 /* Formatação da conteúdo lateral
 -------------------------------------------------*/
 
 #topo-lateral {
-    background: url(../img/depoimento.png) no-repeat;
-    position: absolute;
     width: 350px;
-    height: 320px;
-    top: 0;
-    right: 0;
+    padding-left: 20px;
 }
 
 /* Formatação do sub conteúdo esquerdo
@@ -132,7 +155,7 @@ header {
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1180px;
+        max-width: 1080px;
         min-width: 720px;
     }
 }
