@@ -55,6 +55,9 @@ header {
 
 .container .botao-tg {
     background: #af670a;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
 }
 
 .botao-tg:hover {
@@ -65,47 +68,33 @@ header {
 -------------------------------------------------*/
 
 #conteudo {
-    margin-top: -160px;
+    position: relative;
+    height: 320px;
 }
 
-.museu {
-    float: left;
-}
-
-.depoimento {
-    float: right;
-}
-
-/* Formatação do sub conteúdo direito
+/* Formatação do conteúdo principal
 -------------------------------------------------*/
 
-.museu {
-    position: relative;
-}
-
-h4 {
-    font-size: 1rem;
-    font-weight: bold;
-    margin: 20px 0;
-    color: #227115;
-}
-
-#col-esquerda {
-    padding: 20px;
+#topo-principal {
+    background: url(../img/museu.png) no-repeat;
     position: absolute;
+    width: 100%;
+    height: 320px;
+    top: 0;
     left: 0;
-}
-
-#col-direita {
-    padding: 20px;
-    position: absolute;
-    right: 0;
 }
 
 /* Formatação da conteúdo lateral
 -------------------------------------------------*/
 
-
+#topo-lateral {
+    background: url(../img/depoimento.png) no-repeat;
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    top: 0;
+    right: 0;
+}
 
 /* Formatação do sub conteúdo esquerdo
 -------------------------------------------------*/
@@ -126,15 +115,11 @@ h4 {
 -------------------------------------------------*/
 
 @media (max-width: 575.98px) {
-    .container {
-        min-width: 1000px;
-    }
+    
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .container {
-        min-width: 1000px;
-    }
+    
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -148,5 +133,6 @@ h4 {
 @media (min-width: 1200px) {
     .container {
         max-width: 1180px;
+        min-width: 720px;
     }
 }
