@@ -61,15 +61,46 @@ header {
     background: #227115;
 }
 
-/* Formatação do conteúdo principal
+/* Formatação do conteúdo
 -------------------------------------------------*/
 
+#conteudo {
+    margin-top: -160px;
+}
 
+.museu {
+    float: left;
+}
+
+.depoimento {
+    float: right;
+}
 
 /* Formatação do sub conteúdo direito
 -------------------------------------------------*/
 
+.museu {
+    position: relative;
+}
 
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #227115;
+}
+
+#col-esquerda {
+    padding: 20px;
+    position: absolute;
+    left: 0;
+}
+
+#col-direita {
+    padding: 20px;
+    position: absolute;
+    right: 0;
+}
 
 /* Formatação da conteúdo lateral
 -------------------------------------------------*/
