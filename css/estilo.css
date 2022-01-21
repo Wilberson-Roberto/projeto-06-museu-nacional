@@ -3,11 +3,21 @@
 
 body {
     font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
-    background: #f4f2ec url(../img/fundo.png);
+    background: #f4f2ec url(../img/fundo.png) repeat-x;
+}
+
+a {
+    color: #af670a;
 }
 
 a:hover {
     color: #227115;
+}
+
+header {
+    margin: 20px 0;
+    background: url(../img/fundo.png);
+    border: 1px solid red;
 }
 
 /* Formatação do logo
@@ -63,22 +73,62 @@ a:hover {
 #conteudo {
     width: 710px;
     float: left;
-    margin-bottom: 20px;
 }
 
-/* Formatação do conteúdo principal
--------------------------------------------------*/
+#video {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
 
+#mapa {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
 
+#exposicoes {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+
+#historia {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 37px;
+}
+
+#historia p {
+    text-align: justify;
+}
 
 /* Formatação da conteúdo lateral
 -------------------------------------------------*/
 
+aside {
+    width: 350px;
+    float: right;
+    background: #ebe7dd;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
 
+#visita {
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
 
-/* Formatação do sub conteúdo esquerdo
--------------------------------------------------*/
+#verificar {
+    background: #af670a;
+    color: #fff;
+    margin-top: 20px;
+}
 
+#verificar:hover {
+    background: #227115;
+}
 
 /* Formatação do rodapé
 -------------------------------------------------*/
@@ -89,6 +139,17 @@ a:hover {
 -------------------------------------------------*/
 
 
+
+/* Tipografia
+-------------------------------------------------*/
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #227115;
+    padding-bottom: 10px;
+}
 
 /* Breakpoints responsivos com Media Queries
 -------------------------------------------------*/
@@ -113,6 +174,6 @@ a:hover {
 
 @media (min-width: 1200px) { /* Extra large */
     .container {
-        max-width: 1080px;
+        max-width: 1180px;
     }
 }
