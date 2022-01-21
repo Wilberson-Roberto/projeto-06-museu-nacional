@@ -2,172 +2,47 @@
 -------------------------------------------------*/
 
 body {
-    font: 14px Helvetica, Arial, sans-serif;
-    background: #f4f2ec;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    background: #f4f2ec url(../img/fundo.png);
 }
 
-header {
-    background: url(../img/fundo.png);
-    height: 130px;
-    padding-top: 30px;
+a:hover {
+    color: #227115;
 }
 
 /* Formatação do logo
 -------------------------------------------------*/
 
-.logo {
-    background: url(../img/logo.png) no-repeat;
-    width: 100%;
-    height: 21px;
-    text-indent: -9000px;
-}
+
 
 /* Formatação do menu principal
 -------------------------------------------------*/
 
-#menu-principal ul li {
-    background: url(../img/fundo.png)repeat-x;
-    height: 40px;
-}
 
-#menu-principal a {
-    text-transform: uppercase;
-    color: #af670a;
-    position: relative;
-    letter-spacing: 0.5px;
-    padding: 15px 10px;
-    line-height: 1.4rem;
-}
-
-#menu-principal a:hover {
-    color: #fff;
-}
-
-#menu-principal a::after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    background: #ea0e4b;
-    width: 0%;
-    left: 50%;
-    bottom: 0;
-    transition: 0.3s ease-out;
-}
-
-#menu-principal a:hover::after {
-    left: 0;
-    width: 100%;
-}
-
-.botao-tg {
-    background: #af670a;
-    margin-top: 20px;
-    display: flex;
-}
-
-.botao-tg:hover {
-    background: #227115;
-}
 
 /* Formatação do conteúdo
 -------------------------------------------------*/
 
-#conteudo {
-    margin-top: 20px;
-}
+
 
 /* Formatação do conteúdo principal
 -------------------------------------------------*/
 
-#topo-principal {
-    width: 710px;
-}
 
-.sub-conteudo {
-    padding: 20px;
-}
-
-h4 {
-    font-size: 1rem;
-    font-weight: bold;
-    padding-bottom: 10px;
-    color: #227115;
-    text-transform: uppercase;
-}
-
-.caixa {
-    padding: 10px 0;
-}
-
-.caixa a {
-    color: #af670a;
-}
-
-.caixa a:hover {
-    color: #227115;
-}
-
-.caixa p {
-    text-align: justify;
-}
 
 /* Formatação da conteúdo lateral
 -------------------------------------------------*/
 
-#topo-lateral {
-    width: 350px;
-    padding-left: 20px;
-}
+
 
 /* Formatação do sub conteúdo esquerdo
 -------------------------------------------------*/
 
-.sub-conteudo-lateral {
-    margin: 20px 0;
-    background: #cdc8b1;
-}
-
-.caixa-lateral {
-    padding: 20px;
-}
-
-.caixa-lateral h4 {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding-bottom: 10px;
-    color: #613d0e
-}
-
-input#verificar {
-    margin-top: 20px;
-    background: #9b9271;
-    color: #fff;
-    border: none;
-}
-
-#galeria {
-    background: #ebe7dd;
-}
-
-#galeria a {
-    background: #ebe7dd url(../img/fundo-foto.png) no-repeat;
-    display: block;
-    float: left;
-    padding: 17px 15px 17px 15px;
-}
 
 /* Formatação do rodapé
 -------------------------------------------------*/
 
-footer {
-    clear: both;
-    background: url(../img/fundo-rodape.png) no-repeat top center;
-    margin-top: 20px;
-}
 
-footer ul {
-    padding-top: 20px;
-}
 
 /* Outras Páginas
 -------------------------------------------------*/
