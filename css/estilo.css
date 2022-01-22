@@ -121,7 +121,7 @@ h3 {
 }
 
 #conteudo-lateral {
-    width: 350px;
+    width: 100%;
     background: #ebe7dd;
     overflow: auto;
 }
@@ -129,6 +129,16 @@ h3 {
 #visita {
     background: #cdc8b1;
     padding: 10px;
+}
+
+#verificar {
+    background: #9b9271;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#verificar:hover {
+    background: #5c5643;
 }
 
 h4 {
@@ -147,10 +157,11 @@ h4 {
     background: url(../img/fundo-foto.png) no-repeat;
     display: block;
     float: left;
-    margin: 19px;
+    margin: 5%;
 }
 
 #galeria img {
+    width: 125px;
     padding: 20px 17px 15px 17px;
 }
 
@@ -214,6 +225,20 @@ footer {
         margin: 20px 0;
         margin-left: 25px;
     }
+
+    #conteudo-lateral {
+        width: 220px;
+    }
+
+    #galeria img {
+        min-width: 180px;
+        border: 5px solid #af670a;
+    }
+
+    #galeria a {
+        background: none;
+        margin: none;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { /* Large */
@@ -225,6 +250,18 @@ footer {
         width: 260px;
         margin: 22px;
     }
+
+    #conteudo-lateral {
+        width: 300px;
+    }
+
+    #galeria img {
+        min-width: 120px;
+    }
+
+    #galeria a {
+        margin: 2%;
+    }
 }
 
 @media (min-width: 1200px) { /* Extra large */
@@ -234,5 +271,9 @@ footer {
 
     #mapa, #video, #exposicoes, #historia {
         margin: 23px;
+    }
+
+    #conteudo-lateral {
+        width: 350px;
     }
 }
