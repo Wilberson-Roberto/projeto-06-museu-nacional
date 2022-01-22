@@ -74,17 +74,98 @@ header {
     position: relative;
 }
 
+#principal img {
+    margin-bottom: 10px;
+}
 
+h3 {
+    color: #227115;
+    font-size: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+#video {
+    width: 310px;
+    float: left;
+    margin-left: 25px;
+}
+
+#mapa {
+    width: 310px;
+    float: left;
+    margin-left: 37px;
+}
+
+
+#exposicoes {
+    width: 310px;
+    float: left;
+    margin: 15px 0 0 25px;
+}
+
+#historia {
+    width: 310px;
+    float: left;
+    margin: 15px 0 0 37px;
+    text-align: justify;
+}
 
 /* Formatação da conteúdo lateral
 -------------------------------------------------*/
 
+#lateral img {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
 
+#conteudo-lateral {
+    width: 350px;
+    background: #ebe7dd;
+    overflow: auto;
+}
+
+#visita {
+    background: #cdc8b1;
+    padding: 10px;
+}
+
+h4 {
+    color: #af670a;
+    font-size: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+#galeria {
+    padding: 10px;
+}
+
+#galeria a {
+    background: url(../img/fundo-foto.png) no-repeat;
+    display: block;
+    float: left;
+    margin: 19px;
+}
+
+#galeria img {
+    padding: 20px 17px 15px 17px;
+}
 
 /* Formatação do rodapé
 -------------------------------------------------*/
 
+footer {
+    background: url(../img/fundo-rodape.png) no-repeat top center;
+    text-align: center;
+    padding: 20px;
+}
 
+#rodape-menu a {
+    padding: 10px;
+}
 
 /* Outras Páginas
 -------------------------------------------------*/
@@ -100,12 +181,22 @@ header {
 -------------------------------------------------*/
 
 @media (max-width: 575.98px) { /* Extra Small */
-    
+    #mapa, #video, #exposicoes, #historia {
+        min-width: 90%;
+        margin: 20px 0;
+        margin-left: 25px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { /* Small */
     .container {
         min-width: 100%;
+    }
+
+    #mapa, #video, #exposicoes, #historia {
+        min-width: 90%;
+        margin: 20px 0;
+        margin-left: 25px;
     }
 }
 
@@ -117,16 +208,31 @@ header {
     #lateral img {
         min-width: 220px;
     }
+
+    #mapa, #video, #exposicoes, #historia {
+        min-width: 90%;
+        margin: 20px 0;
+        margin-left: 25px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { /* Large */
     #lateral img {
         min-width: 300px;
     }
+
+    #mapa, #video, #exposicoes, #historia {
+        width: 260px;
+        margin: 22px;
+    }
 }
 
 @media (min-width: 1200px) { /* Extra large */
     .container {
         max-width: 1180px;
+    }
+
+    #mapa, #video, #exposicoes, #historia {
+        margin: 23px;
     }
 }
