@@ -181,7 +181,30 @@ footer {
 /* Outras Páginas
 -------------------------------------------------*/
 
+#conteudo-expo {
+    background: #cdc8b1;
+    width: 100%;
+    padding: 20px;
+}
 
+h2 {
+    color: #227115;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+#conteudo-expo img {
+    border: 10px solid #5c5643;
+}
+
+#conteudo-expo p {
+    text-align: justify;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 25px;
+}
 
 /* Tipografia
 -------------------------------------------------*/
