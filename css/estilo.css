@@ -206,6 +206,16 @@ h2 {
     margin-bottom: 25px;
 }
 
+.contato {
+    background: #9b9271;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.contato:hover {
+    background: #5c5643;
+}
+
 /* Tipografia
 -------------------------------------------------*/
 
